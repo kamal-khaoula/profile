@@ -1,0 +1,60 @@
+body {
+	background-color: #F5F5F5; 
+
+}
+h2{
+	color: #739675;
+    font-family: 'Exo 2', serif;
+	}
+
+h1{
+	color: #4A5759;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+p {
+    font-family: 'Crimson Text', serif;	
+}
+.container{ 
+    margin: 10px auto;
+    width: 700px;
+    text-align: center;
+   }
+
+.card-white { 	
+	background-color: white;
+    box-shadow: 0px 20px 30px rgba(0,0,0,0.5);
+    margin-bottom: 30px;
+    padding: 20px;
+
+ }
+.img-circle{
+	border-radius: 50%;
+}
+.btn-purple{
+	background-color: #4A5759;
+	color: white;
+	padding: 5px 5px;
+	border-radius:30%;
+}
+a:hover {
+	color: black;
+}
+.logo-insta{
+	background-color: #4A5759;
+    box-shadow: 0px 20px 30px rgba(0,0,0,0.5);
+	size:100px;
+	padding: 10px 10px;
+	color: white;
+	border-radius:30%;
+}
+@media (max-width: 700px){
+	.container {
+		width: 600;
+	}
+
+@media (max-width: 500px){
+	.container {
+		width: 400;
+	}
+}
